@@ -22,6 +22,19 @@
    - [Download from GitHub](https://github.com/cscnk52/UserScript/raw/refs/heads/main/GitHub-Repo-Size/GitHub-Repo-Size.user.js)
 3. Click the "Install" button below to automatically add the userscript to your userscript manager.
 
+### Configure token
+
+1. Open [token page](https://github.com/settings/personal-access-tokens/new).
+2. Enter token name `GitHub-Repo-Size`
+3. Select Expiration (Recommend select `No expiration`).
+4. Select Repository access (Recommend `All repositories`).
+5. Select `Permissions` -> `Repository permissions` -> `Contents` -> `ACCESS: Read-only`
+6. click `Generate token`
+7. copy generated token to clipboard.
+8. click Tampermonkey, find `GitHub-Repo-Size`, click `config token`.
+9. Enter token, Click `ok`.
+10. All done, enjoy!
+
 ## Usage
 
 Once the script is installed, navigate to any GitHub repository. The size of the repository will appear in a new location on the page, typically near the repository description.
