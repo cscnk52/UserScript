@@ -25,11 +25,11 @@
 ### Configure token
 
 1. Open [token page](https://github.com/settings/personal-access-tokens/new).
-2. Enter token name `GitHub-Repo-Size`
+2. Enter token name `GitHub-Repo-Size`.
 3. Select Expiration (Recommend select `No expiration`).
 4. Select Repository access (Recommend `All repositories`).
-5. Select `Permissions` -> `Repository permissions` -> `Contents` -> `ACCESS: Read-only`
-6. click `Generate token`
+5. Select `Permissions` -> `Repository permissions` -> `Metadata` -> `ACCESS: Read-only`.
+6. click `Generate token`.
 7. copy generated token to clipboard.
 8. click Tampermonkey, find `GitHub-Repo-Size`, click `config token`.
 9. Enter token, Click `ok`.
