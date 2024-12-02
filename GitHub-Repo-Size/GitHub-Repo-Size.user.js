@@ -3,6 +3,7 @@
 // @namespace    https://github.com/
 // @version      1.1
 // @description  在 GitHub 仓库页面显示仓库大小信息
+// @license      MIT
 // @author       cscnk52 & ChatPGT
 // @match        https://github.com/*/*
 // @grant        GM_xmlhttpRequest
